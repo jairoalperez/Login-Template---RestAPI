@@ -35,7 +35,8 @@ namespace LoginTemplate_RestAPI.Helpers
                                 = "This username or email is already in use";
             public const string Registered
                                 = "User registered successfully";
-            
+            public const string WrongCredentials
+                                = "Invalid username or password";
         }
     }
 }
