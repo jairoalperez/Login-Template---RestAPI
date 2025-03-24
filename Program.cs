@@ -18,7 +18,7 @@ builder.Services.AddCors(options =>
 });
 
 // Process connection string
-var rawConnectionString = builder.Configuration.GetConnectionString("TheaterDB")
+var rawConnectionString = builder.Configuration.GetConnectionString("LoginTemplate")
                             ?? throw new InvalidOperationException(Messages.Database.NoConnectionString);
 var connectionString = ReplaceConnectionString.BuildConnectionString(rawConnectionString);
 
