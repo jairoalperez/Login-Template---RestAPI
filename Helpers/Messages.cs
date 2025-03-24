@@ -28,5 +28,14 @@ namespace LoginTemplate_RestAPI.Helpers
             public const string ProblemRelated
                                 = "Problem related to the database call";
         }
+
+        public static class User
+        {
+            public const string UserExists      
+                                = "This username or email is already in use";
+            public const string Registered
+                                = "User registered successfully";
+            
+        }
     }
 }
