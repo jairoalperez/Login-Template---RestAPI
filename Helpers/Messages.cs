@@ -16,5 +16,17 @@ namespace LoginTemplate_RestAPI.Helpers
             public const string Unauthorized
                                 = "You are not authorized to do this request. (Token is missing or invalid)";
         }
+
+        public static class Database
+        {
+            public const string NoConnectionString
+                                = "The connection string is missing";
+            public const string ConnectionSuccess
+                                = "Database connected successfully!";
+            public const string ConnectionFailed
+                                = "Couldn't connect to the database";
+            public const string ProblemRelated
+                                = "Problem related to the database call";
+        }
     }
 }
